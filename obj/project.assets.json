@@ -3330,6 +3330,9 @@
         }
       },
       "warningProperties": {
+        "noWarn": [
+          "NU1603"
+        ],
         "warnAsError": [
           "NU1605"
         ]
@@ -3408,17 +3411,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ProjectAuth depends on AspNetCore.Identity.MongoDbCore (>= 5.1.0) but AspNetCore.Identity.MongoDbCore 5.1.0 was not found. AspNetCore.Identity.MongoDbCore 6.0.0 was resolved instead.",
-      "libraryId": "AspNetCore.Identity.MongoDbCore",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
