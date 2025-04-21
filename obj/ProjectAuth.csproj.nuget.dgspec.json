@@ -44,6 +44,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AspNetCore.Identity.Mongo": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AspNetCore.Identity.MongoDbCore": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -66,7 +74,11 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[2.30.0, )"
+            },
+            "MongoDbGenericRepository": {
+              "target": "Package",
+              "version": "[1.6.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
